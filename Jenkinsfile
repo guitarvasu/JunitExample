@@ -1,6 +1,6 @@
 node {
 
-  git url: 'https://github.com/pmisarwala/JunitExample.git'
+  git url: 'https://github.com/guitarvasu/JunitExample.git'
 
   def mvnHome = tool 'MAVEN'
   sh "${mvnHome}/bin/mvn -B package"
