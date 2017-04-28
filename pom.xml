@@ -20,17 +20,12 @@
     <version>2.5</version>
 </dependency>
   </dependencies>
-  <distributionManagement>
+ <distributionManagement>
     <repository>
         <id>central</id>
         <name>Parvezs-MacBook-Pro.local-releases</name>
-        <url>http://192.168.5.124:8081/artifactory/demo-maven-repo</url>
+        <url>http://192.168.5.124:8081/artifactory/libs-release-local</url>
     </repository>
-    <snapshotRepository>
-        <id>snapshots</id>
-        <name>Parvezs-MacBook-Pro.local-snapshots</name>
-        <url>http://192.168.5.124:8081/artifactory/demo-maven-repo</url>
-    </snapshotRepository>
 </distributionManagement>
   <build>
     <finalName>JunitExample</finalName>
